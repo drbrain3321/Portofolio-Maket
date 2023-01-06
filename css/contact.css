@@ -1,0 +1,168 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.header{
+    background: url(../img/bg.png) no-repeat center top / cover;
+    padding-top: 1px;
+    color: white;
+    padding-bottom: 395px;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.logo{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav span{
+    font-weight: 500;
+}
+.menu{
+    display: flex;
+    padding-top: 10px;
+}
+.menu li{
+    margin-right: 40px;
+    display: block;
+}
+.menu li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.menu li a:hover{
+    text-decoration-line: underline;
+    text-decoration-color: #5C62EC; 
+}
+.wrapper{
+    text-align: center;
+}
+.forum{
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #4F4F4F;
+    width: 350px;
+    color: white;
+}
+.forums textarea{
+    resize: none;
+    width: 600px;
+
+}
+#space{
+    margin: 30px;
+}
+.send{
+    background: #27AE60;
+    font-size: 18px;
+    padding: 12px 31px 12px 31px;
+    text-decoration: none;
+    color: white;
+    font-family: 'DM Sans' sans-serif;
+    
+}
+.sends{
+    padding-top: 30px;
+}
+.contact{
+    font-family: Impact;
+    color: white;
+    font-size: 65px;
+    padding-top: 100px;
+}
+.contact:hover{
+    color: #535353;
+}
+.location{
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    padding-top: 10px;
+}
+.strd{
+    padding-top: -10px;
+    font-size: 15px;
+}
+.icon{  
+    padding-top: 20px;
+}
+.icn{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+@media screen and (max-width: 1800px){
+    .contact{
+        padding-top: 15px;
+    }
+    .location{
+        font-family: 'Poppins', sans-serif;
+        font-size: 40px;
+        padding-top: 5px;
+    }
+    .strd{
+        padding-top: -10px;
+        font-size: 13px;
+    }
+    .forums textarea{
+        resize: none;
+        width: 600px;
+        height: 150px;
+    
+    }
+    .icon{  
+        padding-top: 10px;
+    }
+}
+@media screen and (max-width: 768px){
+    .container{
+        width: 100%;
+    }
+    .nav{
+        display: block;
+    }
+    .logo{
+        padding-left: 55px;
+    }
+    .menu{
+        padding-left: 75px;
+    }
+    .contact{
+        font-size: 55px;
+        padding-top: 30px;
+    }
+    .location{
+        font-size: 32px;
+    }
+    .strd{
+        font-size: 11px;
+    }
+    .forum{
+        font-size: 15px;
+    }
+    #space{
+        margin: 10px 10px 10px 10px;
+        padding-top: 20px;
+    }
+    .forums textarea{
+        width: 300px;
+        padding-top: 10px;
+    }
+    #spaces{
+        padding-top: 20px;
+    }
+    .header{
+        padding-bottom: 30px;
+    }
+
+}

@@ -1,0 +1,146 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden;
+}
+.header{
+    background: url(../img/bg.png) no-repeat center top / cover;
+    padding-top: 1px;
+    color: white;
+    padding-bottom: 395px;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.logo{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav span{
+    font-weight: 500;
+}
+.menu{
+    display: flex;
+    padding-top: 10px;
+}
+.menu li{
+    margin-right: 40px;
+    display: block;
+}
+.menu li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.menu li a:hover{
+    text-decoration-line: underline;
+    text-decoration-color: #5C62EC; 
+}
+.offer{
+    align-content: center;
+}
+.offer h1{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    font-style: normal;
+    width: 630px;
+    text-align: center;
+}
+.offer p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: -0.5px;
+    width: 305px;
+    padding-left: 180px;
+    padding-bottom: 23px;
+}
+.offer a{
+    background: #5C62EC;
+    border-radius: 5px;
+    padding: 12px 28px 12px 28px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 0.15px;
+    font-weight: 500;
+    margin-left: 245px;
+}
+.offer a:hover{
+    background: #434db1;
+}
+.btn{
+    margin-top: 20px;
+}
+.name{
+    color: #5C62EC;
+}
+.spans{
+    font-size: 40px;
+}
+.pos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 220px;
+}
+
+
+@media screen and (max-width: 1800px){
+    .pos{
+        padding-top: 150px;
+    }
+}
+@media screen and (max-width: 768px){
+    .nav{
+        display: block;
+    }
+    .offer{
+        padding-left: 40px;
+    }
+    .offer h1{
+        font-size: 30px;
+        text-align: center;
+        width: 300px;
+    }
+    .offer p{
+        font-size: 13px;
+        width: 250px;
+        padding-left: 40px;
+    }
+
+    .pos{
+        display: flex;
+        justify-content: left;
+    }
+    .spans{
+        font-size: 25px;
+    }
+    .offer a{
+        margin-left: 75px;
+        padding: 8px 18px 8px 18px;
+        font-size: 15px;
+    }
+    .logo{
+        padding-left: 55px;
+    }
+    .menu{
+        padding-left: 60px;
+    }
+    .container{
+            width: 100%;
+
+    }
+
+}
